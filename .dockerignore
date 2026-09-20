@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.git/
+.gitignore
+.env
+.env.*
+.pytest_cache/
+node_modules/
+frontend/node_modules/
+frontend/package-lock.json
+.DS_Store
+*.log
