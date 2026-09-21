@@ -25,7 +25,7 @@ It integrates **LiveKit** for communication and **Gemini Realtime AI** for conve
 
 ## 🧠 Architecture
 
-```text
+
 Frontend (Vite/JS)
        ↓
 FastAPI Token Server
@@ -38,8 +38,10 @@ Gemini Realtime AI
        ↓
 AI Voice Reply
 
+---
+
 🛠️ Technology Stack
- 
+
 Component	                        Technology
 Real-time communication	            LiveKit
 AI Agent Framework	                LiveKit Agents
@@ -50,6 +52,7 @@ Config	                            python-dotenv
 SSL Certificates	                Certifi
 Testing/Diagnostics	                Python / pytest
 
+---
 
 📁 Project Structure
 
@@ -73,6 +76,8 @@ roxstar-ai-voice-room/
 ├── .env
 ├── .gitignore
 └── README.md
+
+---
 
 ⚙️ Installation
 
@@ -124,6 +129,8 @@ npm install
 npm run dev
 Open the Vite dev URL in your browser.
 
+---
+
 🧑‍💻 Example Conversations
 Hindi / Hinglish
 
@@ -136,12 +143,4 @@ Code
 User: What is machine learning?
 Dost: Machine learning is a way of teaching computers to learn patterns from data.
 
-
-🔐 Security
-Secrets stored in .env
-.gitignore excludes sensitive files
-API credentials never exposed in logs
-
-📊 Logging & Diagnostics
-Backend logs key events: [ROOM] DOST JOINED, [HANDOFF] Dost -> Sathi
-Diagnostic script: diagnose_dispatch.py to trace agent dispatch lifecycle
+---
